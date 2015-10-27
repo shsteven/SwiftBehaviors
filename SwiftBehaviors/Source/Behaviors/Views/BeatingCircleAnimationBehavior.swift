@@ -43,7 +43,7 @@ class BeatingCircle : UIView {
 
     required init(coder aDecoder: NSCoder) {
         self.path = UIBezierPath(ovalInRect: CGRect(x: 0, y:0, width:0, height:0))
-        super.init(coder: aDecoder)
+        super.init(coder: aDecoder)!
     }
 
     override func drawRect(rect: CGRect) {

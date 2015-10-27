@@ -135,6 +135,9 @@ Due to this limitation Transition Cell Expansion Behavior has to provide a bit l
 
 ## Release Notes
 
+### 1.3
+Updated to Xcode 7.1 / Swift 2.1
+
 ### 1.2
 Fixed issue: #1
 

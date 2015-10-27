@@ -40,7 +40,7 @@ extension UIView {
                     image.scale * rect.origin.y,
                     image.scale * rect.size.width,
                     image.scale * rect.size.height))
-            let screen = UIImage(CGImage: imageRef, scale: image.scale, orientation: .Up)
+            let screen = UIImage(CGImage: imageRef!, scale: image.scale, orientation: .Up)
             UIGraphicsEndImageContext()
             return screen
         }
